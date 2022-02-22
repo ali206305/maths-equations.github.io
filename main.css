@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Lucida Sans, Arial;
+}
+
+body {
+  background-image: url(img/back4.jpg);
+  background-size: cover;
+}
+
+.main-text{
+  text-align: left;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-left: 200px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+.main-text h2, h3{
+  padding-top: 15px;
+  font-family: Bahnschrift SemiBold, Ariel;
+  font-family: "Playfair Display", serif;
+}
+.main-text li, p{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.material-icons {
+  padding-left: 20px;
+  padding-top: 20px;
+  transition: all .2s ease-in-out;
+}
+.material-icons:hover {
+  transform: scale(1.2);
+}
+
+.links a{
+  text-decoration: none; /* removes line underneath links */
+  color: white;
+}
+
+.footer{ /* make footer at bottom of page */
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+}

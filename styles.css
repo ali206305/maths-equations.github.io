@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url(img/back4.jpg);
+  background-size: cover;
+}
+
+.banner-text{ /* banner text */
+  text-align: center;
+  color: #fff;
+  padding-top: 180px;
+  }
+.banner-text h1{
+  font-size: 120px;
+  font-family: "Playfair Display", serif;
+  }
+.banner-text p{
+  font-size: 20px;
+  padding-top: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  }
+
+.banner-buttons{ /* banner buttons */
+  margin:50px auto 0;
+}
+.banner-buttons a{
+  width: 150px;
+  text-decoration: none; /* removes line underneath links */
+  display: inline-block;
+  margin: 0 5px;
+  padding: 12px 0;
+  color: #fff;
+  border: .5px solid #fff;
+  position: relative;
+}
+.banner-buttons a:hover, a:visited{
+  color: #fff;
+  background-color: rgba(0,19,26,0.3);
+  text-align: center;
+  display: inline-block;
+  transition: 0.15s;
+}
+
+.material-icons {
+  padding: 20px;
+  transition: all .2s ease-in-out;
+}
+.material-icons:hover {
+  transform: scale(1.2);
+}

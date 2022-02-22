@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Lucida Sans, Arial;
+}
+
+body {
+  background-image: url(img/back4.jpg);
+  background-size: cover;
+}
+
+.main-text{
+  text-align: left;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-left: 250px;
+  padding-bottom: 30px;
+}
+.main-text h2{
+  padding-top: 15px;
+  font-family: Bahnschrift SemiBold, Ariel;
+  font-family: "Playfair Display", serif;
+}
+.main-text li{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.material-icons {
+  padding-left: 20px;
+  padding-top: 20px;
+  transition: all .2s ease-in-out;
+}
+.material-icons:hover {
+  transform: scale(1.2);
+}
